@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quasar</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="transparent-header">
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#learn">Learn</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="parallax-section home-section">
+    <div class="content">
+      <h1 class="logo-glitch">Quasar</h1>
+      <p>A Cosmic Wikipedia</p>
+    </div>
+  </section>
+
+  <section id="learn" class="parallax-section learn-section">
+    <div class="content">
+      <h2>Explore the Cosmos</h2>
+      <p>Unlock the mysteries of the universe through our interactive learning modules.</p>
+      <a href="courses.html" class="futuristic-button">Mystery Ahead</a>
+    </div>
+  </section>
+
+  <section id="about" class="parallax-section about-section">
+    <div class="content">
+      <h2>About Us</h2>
+      <p>Discover the minds behind Quasar and our mission to make physics accessible to all.</p>
+    </div>
+  </section>
+
+  <section id="contact" class="parallax-section contact-section">
+    <div class="content">
+      <h2>Contact Us</h2>
+      <p>Have a question or feedback? Get in touch with us!</p>
+    </div>
+  </section>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

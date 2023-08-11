@@ -1,0 +1,127 @@
+/* Reset default margin and padding */
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set a background color and font styles */
+body {
+  font-family: 'Source Code Pro', monospace;
+  background-color: #111;
+  color: #fff;
+  overflow-x: hidden;
+}
+
+/* Style the transparent navigation bar */
+.transparent-header {
+  background-color: rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(10px); /* Add a translucent blue effect */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+}
+
+.transparent-header nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.transparent-header nav ul li {
+  margin: 0 15px;
+}
+
+.transparent-header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s, transform 0.2s;
+}
+
+.transparent-header nav ul li a:hover {
+  color: #00bfff;
+  transform: translateY(-3px) scale(1.05);
+}
+
+/* Parallax Sections */
+.parallax-section {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  color: #fff;
+  text-align: center;
+}
+
+.home-section {
+  background-image: url('astronaut.gif');
+}
+
+.learn-section {
+  background-image: url('learn.gif');
+  opacity : 0.9;
+}
+
+.about-section {
+  background-image: url('city.gif');
+}
+
+.contact-section {
+  background-image: url('synth2.gif');
+}
+
+.content {
+  text-align: center;
+}
+
+/* Header Logo (Quasar text) */
+.header-logo {
+  font-size: 3rem; /* Slightly larger Quasar text */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* 3D small shadow */
+}
+
+/* Text in Each Page */
+.parallax-section h2,
+.parallax-section p {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* 3D small shadow */
+}
+
+/* Futuristic Button Styles */
+.futuristic-button {
+  background-color: rgba(0, 0, 255, 0.7); /* Cosmic blueish, translucent */
+  color: #fff;
+  border: none;
+  padding: 8px 20px; /* Smaller button */
+  font-size: 1.2rem; /* Slightly smaller font size */
+  border-radius: 30px;
+  cursor: pointer;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s, box-shadow 0.2s, background-color 0.3s;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 20px; /* Lowered position */
+  background: linear-gradient(to right, #00bfff, #007fff); /* Gradient */
+}
+
+.futuristic-button:hover {
+  background-color: rgba(0, 0, 255, 0.9); /* Stronger blue on hover */
+  transform: translateY(-3px);
+  box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.4);
+}
+
+/* Additional styles for other elements */
+
+/* ...remaining CSS code... */
