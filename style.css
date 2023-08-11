@@ -68,12 +68,12 @@ body {
 }
 
 .learn-section {
-  background-image: url('learn.gif');
+  background-image: url('icegif.gif');
   opacity : 0.9;
 }
 
 .about-section {
-  background-image: url('city.gif');
+  background-image: url('icegif-2.gif');
 }
 
 .contact-section {
